@@ -1,0 +1,39 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* 添加以下样式来水平居中按钮 */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
